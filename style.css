@@ -1,0 +1,27 @@
+#face-pic {
+    width: 300px;
+}
+
+body {
+    background-image: url(/fundamentals-internet_html-my_portfolio-Erak93/img/hao-wang-pVq6YhmDPtk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+h1,h2,p,li {
+    color: white;
+}
+
+.intro-flex {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+.description-flex {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
