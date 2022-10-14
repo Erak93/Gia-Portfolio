@@ -47,6 +47,7 @@ flex-direction: column;
     color: white;
     background-color: blue;
     align-self: flex-start;
+    position: relative; left: 460px;
 }
 
 .flex-portfolio a:hover {
@@ -72,4 +73,8 @@ flex-direction: column;
 
 .flex-portfolio-description img  {
     flex-grow: 2;
+}
+
+.projectsH2 {
+    position: relative; left: 430px;
 }
