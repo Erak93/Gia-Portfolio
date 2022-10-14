@@ -1,5 +1,5 @@
 #face-pic {
-    width: 300px;
+    width: 400px;
 }
 
 body {
@@ -10,18 +10,66 @@ body {
     
 }
 
-h1,h2,p,li {
+h1,h2,h3,p,li {
     color: white;
 }
 
 .intro-flex {
     display: flex;
     flex-direction: row;
-    background-color: rgba(0, 0, 0, 0.438);
+    background-color: rgba(0, 0, 0, 0.726);
 }
 
 .description-flex {
     display: flex;
     flex-direction: column;
     padding-left: 20px;
+}
+
+.flex-portfolio {
+    margin-top: 10px;
+    background-color:  rgba(0, 0, 0, 0.726);
+flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flex-portfolio a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border: white 2px solid;
+    border-radius: 10px;
+    padding: 5px 5px;
+    color: white;
+    background-color: blue;
+    align-self: flex-start;
+}
+
+.flex-portfolio a:hover {
+    background-color: blueviolet;
+}
+
+.flex-portfolio-description  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.flex-portfolio h3 {
+   align-self: flex-start;
+}
+
+.flex-portfolio-description p  {
+    flex-grow: 1;
+    align-self: center;
+    padding-right: 6px;
+}
+
+.flex-portfolio-description img  {
+    flex-grow: 2;
 }
